@@ -7,6 +7,7 @@ order: 1
 <h2><a href="{{ site.domain }}{{ site.baseurl }}">Hi there</a></h2>
 
 Link to all the things:
+- [About the EMBL Design Language](https://github.com/EMBL-Design-Language/About#about)
 - Backlog
 - Blog posts
 - OwnCloud
