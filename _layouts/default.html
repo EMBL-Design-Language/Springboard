@@ -4,7 +4,7 @@
   <body class="level2"><!-- add any of your classes or IDs -->
     {% include local_masthead.html %}
     <div id="content" role="main">
-      <div class="masthead-inner row">
+      <div class="masthead-inner grid-container">
         <!-- local-title -->
         <h1><a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage">{{ site.name }}</a></h1>
         <!-- /local-title -->
@@ -40,7 +40,7 @@
           </ul>
         </nav>
         -->
-        <div class="row">
+        <div class="grid-container">
         {{ content }}
         </div>
       </section>
