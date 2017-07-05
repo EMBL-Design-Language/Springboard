@@ -1,6 +1,6 @@
 # Site settings
-name: EMB Design Language Springboard
-group: EMB Design Language
+name: EMBL Design Language Springboard
+group: EMBL Design Language
 email: design@embl.org
 domain: //EMBL-Design-Language.github.io
 baseurl: /Springboard
