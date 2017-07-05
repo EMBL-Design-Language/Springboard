@@ -8,9 +8,9 @@ order: 1
 
 Link to all the things:
 - [About the EMBL Design Language](https://github.com/EMBL-Design-Language/About#about)
-- Backlog
-- Blog posts
-- OwnCloud
+- [Backlog](https://github.com/orgs/EMBL-Design-Language/projects)
+- [Blog posts](https://blogs.embl.org/communications/)
+- [OwnCloud](https://oc.embl.de) (Link only, you'll need to request access to files)
 - Design principles
 - Slack
 - Feedback/discussion: design@embl.org
