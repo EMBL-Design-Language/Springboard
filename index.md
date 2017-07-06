@@ -22,7 +22,6 @@ And EMBL's "[five missions and the Programme 2017—2021](https://www.embl.de/ab
 1. Playing a leading role in the *integration* of life science research in Europe
 
 Links to all the things:
-- [About the EMBL Design Language](https://github.com/EMBL-Design-Language/About#about)
 - [Backlog](https://github.com/orgs/EMBL-Design-Language/projects)
 - [Blog posts](https://blogs.embl.org/communications/)
 - [OwnCloud](https://oc.embl.de) (Link only, you'll need to request access to files)
