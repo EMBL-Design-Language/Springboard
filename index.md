@@ -25,11 +25,14 @@ Links to all the things:
 - [Backlog](https://github.com/orgs/EMBL-Design-Language/projects)
 - [Blog posts](https://blogs.embl.org/communications/)
 - [OwnCloud](https://oc.embl.de) (Link only, you'll need to request access to files)
+- [Information architecture](https://github.com/EMBL-Design-Language/Information-Architecture)
 - Design principles
 - Slack
 - Feedback/discussion: design@embl.org
 - ... more?
 
 
-<h3>Recent updates to this project</h3>
+<div class="callout" mardown="1">
+### Recent updates to this project
 {% include update_list.html %}
+</div>
