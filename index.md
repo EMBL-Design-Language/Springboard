@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Springboard
+bigtitle: "Our Design Language"
+subtitle: "This is the springboard for your needs."
 group: "in_local_navigation"
 order: 1
 ---
 
-The EMBL Design Language is the official branding and visual rules for all EMBL websites, services, brochures, slides, and other documents. It puts the focus on the EMBL spirit, it reminds that we are all part of one institute. 
+<p class="lead">The EMBL Design Language is the branding, visual standards and tools for all EMBL websites, services, brochures, slides, and other documents. It puts the focus on the EMBL spirit, it reminds that we are all part of one institute.</p>
 
-The Language is one half of the coin; the other half is the EMBL Design Lab, a collaborative forum for support and improvement of the EMBL Design Language. 
+The Language is one half of the coin; the other half is the EMBL Design Lab, a collaborative forum for support and improvement of the EMBL Design Language.
 
 ### Purpose
 It is useful to recall [EMBL's mission](https://www.embl.de/aboutus/communication_outreach/publications/programme/programme17-21_executive-summary.pdf):
