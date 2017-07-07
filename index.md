@@ -11,6 +11,8 @@ order: 1
 
 The Language is one half of the coin; the other half is the EMBL Design Lab, a collaborative forum for support and improvement of the EMBL Design Language.
 
+{% include navigation_list.html %}
+
 ### Purpose
 It is useful to recall [EMBL's mission](https://www.embl.de/aboutus/communication_outreach/publications/programme/programme17-21_executive-summary.pdf):
 

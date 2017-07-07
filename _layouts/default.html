@@ -23,20 +23,31 @@
           <div class="large-11 cell black-background margin-bottom-large">
 
             <div class="grid-x grid-padding-x">
-              <div class="padding-top-large margin-left-medium large-11 cell">
-                <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color">
-                  <i class="icon icon-generic" data-icon="H"></i> {{ site.name }}
-                </a>
+              {% if page.url != "/" %}
+                <div class="show-for-xlarge xlarge-1 cell"></div>
+                <div class="padding-top-large padding-left-medium xlarge-11 large-12 cell">
+                  <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color">
+                    <i class="icon icon-generic" data-icon="H"></i> {{ site.name }}
+                  </a>
+                </div>
+                <div class="show-for-xlarge xlarge-1 cell"></div>
+                <div class="padding-left-medium intro white-color margin-bottom-none xlarge-11 large-12 cell">
+              {% else %}
+                <div class="show-for-xlarge xlarge-1 cell"></div>
+                <div class="padding-left-medium padding-top-large intro white-color margin-bottom-none xlarge-11 large-12 cell">
+              {% endif %}
+                <h1 class="">
+                  {% if page.bigtitle %}
+                    {{page.bigtitle}}
+                  {% else %}
+                    {{page.title}}
+                  {% endif %}
+                </h1>
               </div>
-              <!-- <div class="show-for-large large-1 cell"></div> -->
-              <h1 class="margin-left-medium intro white-color margin-bottom-none large-11 cell">
-                {% if page.bigtitle %}
-                  {{page.bigtitle}}
-                {% else %}
-                  {{page.title}}
-                {% endif %}
-              </h1>
-              <p class="margin-left-medium large-11 cell lead white-color">{{page.subtitle}}</p>
+              <div class="show-for-xlarge xlarge-1 cell"></div>
+              <div class="padding-left-medium xlarge-11 large-12 cell white-color">
+                <p class="lead" style="">{{page.subtitle}}</p>
+              </div>
             </div>
           </div>
 
@@ -44,24 +55,12 @@
         </div>
 
         <!-- local-nav -->
-        <nav class="grid-container padding-bottom-large">
+        <!-- <nav class="grid-container padding-bottom-large">
           <div class="grid-x">
             <div class="large-auto cell">
-              <ul id="local-nav" class="local-nav dropdown menu " data-description="navigational" data-dropdown-menu>
-                {% comment %}
-                We construct the site naviagion by loading a list of the site's pages
-                and filtering to just those with the front matter of:
-                  group: "in_local_navigation"
-                and we order by adding
-                  order: 2 (whatever number)
-                {% endcomment %}
-                {% assign navigation_list = site.pages | sort:"order" %}
-                {% assign group = 'in_local_navigation' %}
-                {% include navigation_list.html %}
-              </ul>
             </div>
           </div>
-        </nav>
+        </nav> -->
         <!-- /local-nav -->
 
       </section>

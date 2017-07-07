@@ -1,7 +1,18 @@
+<h3>Springboard topics</h3>
+<ul class="">
+{% comment %}
+We construct the site naviagion by loading a list of the site's pages
+and filtering to just those with the front matter of:
+  group: "in_local_navigation"
+and we order by adding
+  order: 2 (whatever number)
+{% endcomment %}
+{% assign navigation_list = site.pages | sort:"order" %}
+{% assign group = 'in_local_navigation' %}
 {% for node in navigation_list %}
   {% if group == null or group == node.group %}
     {% if page.url == node.url %}
-      <li class="active"><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></li>
+      <li class="active"><strong><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></strong> (you are here)</li>
     {% else %}
       <li><a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a></li>
     {% endif %}
@@ -9,3 +20,4 @@
 {% endfor %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
+</ul>
