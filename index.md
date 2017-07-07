@@ -34,9 +34,3 @@ Links to all the things:
 - Slack
 - Feedback/discussion: design@embl.org
 - ... more?
-
-
-<div class="callout" mardown="1">
-### Recent updates to this project
-{% include update_list.html %}
-</div>
