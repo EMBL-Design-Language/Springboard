@@ -3,7 +3,7 @@ layout: default
 title: Governance
 subtitle: "About the EMBL Design Language governance, the Design Lab working group"
 group: "in_local_navigation"
-order: 2
+order: 4
 ---
 
 <p class="lead">Intro to come.</p>

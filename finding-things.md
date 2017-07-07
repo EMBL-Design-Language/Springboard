@@ -3,7 +3,7 @@ layout: default
 title: Finding things
 subtitle: "Where to find the various template files, documentation, pattern libraries"
 group: "in_local_navigation"
-order: 2
+order: 3
 ---
 
 <p class="lead">As one of our design principles we've worked to put assets and links to assets where you expect to find them. Below is a comprehensive guide to what's available and where to find them.</p>

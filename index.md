@@ -30,7 +30,6 @@ Links to all the things:
 - [Blog posts](https://blogs.embl.org/communications/)
 - [OwnCloud](https://oc.embl.de) (Link only, you'll need to request access to files)
 - [Information architecture](https://github.com/EMBL-Design-Language/Information-Architecture)
-- Design principles
 - Slack
 - Feedback/discussion: design@embl.org
 - ... more?
