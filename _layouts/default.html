@@ -20,33 +20,35 @@
 
       <section class="">
         <div class="grid-x grid-padding-x">
-          <div class="large-11 cell black-background margin-bottom-large">
+          <div class="header-black-bar large-12 cell black-background margin-bottom-large">
 
-            <div class="grid-x grid-padding-x">
-              {% if page.url != "/" %}
-                <div class="show-for-xlarge xlarge-1 cell"></div>
-                <div class="padding-top-large padding-left-medium xlarge-11 large-12 cell">
-                  <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color">
-                    <i class="icon icon-generic" data-icon="H"></i> {{ site.name }}
-                  </a>
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x">
+                {% if page.url != "/" %}
+                  <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
+                  <div class="padding-top-large padding-left-medium xlarge-11 large-12 cell">
+                    <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color">
+                      <i class="icon icon-generic" data-icon="H"></i> {{ site.name }}
+                    </a>
+                  </div>
+                  <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
+                  <div class="padding-left-medium intro white-color margin-bottom-none xlarge-11 large-12 cell">
+                {% else %}
+                  <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
+                  <div class="padding-left-medium padding-top-large intro white-color margin-bottom-none xlarge-11 large-12 cell">
+                {% endif %}
+                  <h1 class="">
+                    {% if page.bigtitle %}
+                      {{page.bigtitle}}
+                    {% else %}
+                      {{page.title}}
+                    {% endif %}
+                  </h1>
                 </div>
-                <div class="show-for-xlarge xlarge-1 cell"></div>
-                <div class="padding-left-medium intro white-color margin-bottom-none xlarge-11 large-12 cell">
-              {% else %}
-                <div class="show-for-xlarge xlarge-1 cell"></div>
-                <div class="padding-left-medium padding-top-large intro white-color margin-bottom-none xlarge-11 large-12 cell">
-              {% endif %}
-                <h1 class="">
-                  {% if page.bigtitle %}
-                    {{page.bigtitle}}
-                  {% else %}
-                    {{page.title}}
-                  {% endif %}
-                </h1>
-              </div>
-              <div class="show-for-xlarge xlarge-1 cell"></div>
-              <div class="padding-left-medium xlarge-11 large-12 cell white-color">
-                <p class="lead" style="">{{page.subtitle}}</p>
+                <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
+                <div class="padding-left-medium xlarge-11 large-12 cell white-color">
+                  <p class="lead" style="">{{page.subtitle}}</p>
+                </div>
               </div>
             </div>
           </div>

@@ -1,0 +1,20 @@
+.header-black-bar {
+  position: relative;
+  left: -4rem;
+}
+.header-black-bar > .grid-container {
+  position: relative;
+  left: 4rem;
+}
+
+.navigation-callout {
+  border: none;
+  background: #EEE;
+  max-width: 35rem;
+}
+
+footer {
+  border-top: 1px solid #999;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}

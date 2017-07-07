@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Springboard
+title: Springboard homepage
 bigtitle: "Our Design Language"
 subtitle: "This is the springboard for your needs."
 group: "in_local_navigation"
