@@ -6,11 +6,9 @@
       <div class="masthead-inner grid-container">
         <!-- local-title -->
         <header id="masthead-black-bar" class="clearfix masthead-black-bar">
-          <nav class="grid-container">
-          </nav>
           <div class="grid-x grid-padding-x">
-            <div class="auto cell padding-top-large">
-              <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="">{{ site.name }}</a>
+            <div class="auto cell padding-top-xlarge">
+              <!-- <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="">{{ site.name }}</a> -->
             </div>
             <div class="small-4 medium-3 large-2 cell">
               <a href="https://embl-design-language.github.io/Springboard/"><img class="padding-top-medium padding-bottom-xlarge padding-right-large" src="https://embl-design-language.github.io/Framework-for-Websites/assets/logos/EMBL-black.svg" /></a>
@@ -18,30 +16,20 @@
           </div>
         </header>
         <!-- /local-title -->
-        <!-- local-nav -->
-        <nav>
-          <ul id="local-nav" class="local-nav dropdown menu float-left" data-description="navigational" data-dropdown-menu>
-            {% comment %}
-            We construct the site naviagion by loading a list of the site's pages
-            and filtering to just those with the front matter of:
-              group: "in_local_navigation"
-            and we order by adding
-              order: 2 (whatever number)
-            {% endcomment %}
-            {% assign navigation_list = site.pages | sort:"order" %}
-            {% assign group = 'in_local_navigation' %}
-            {% include navigation_list.html %}
-          </ul>
-        </nav>
-        <!-- /local-nav -->
       </div>
 
       <section class="">
         <div class="grid-x grid-padding-x">
-          <div class="large-11 cell black-background margin-bottom-xlarge">
+          <div class="large-11 cell black-background margin-bottom-large">
+
             <div class="grid-x grid-padding-x">
+              <div class="padding-top-large margin-left-medium large-11 cell">
+                <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color">
+                  <i class="icon icon-generic" data-icon="H"></i> {{ site.name }}
+                </a>
+              </div>
               <!-- <div class="show-for-large large-1 cell"></div> -->
-              <h1 class="margin-left-medium intro white-color padding-top-large margin-bottom-none">
+              <h1 class="margin-left-medium intro white-color margin-bottom-none large-11 cell">
                 {% if page.bigtitle %}
                   {{page.bigtitle}}
                 {% else %}
@@ -51,7 +39,31 @@
               <p class="margin-left-medium large-11 cell lead white-color">{{page.subtitle}}</p>
             </div>
           </div>
+
+
         </div>
+
+        <!-- local-nav -->
+        <nav class="grid-container padding-bottom-large">
+          <div class="grid-x">
+            <div class="large-auto cell">
+              <ul id="local-nav" class="local-nav dropdown menu " data-description="navigational" data-dropdown-menu>
+                {% comment %}
+                We construct the site naviagion by loading a list of the site's pages
+                and filtering to just those with the front matter of:
+                  group: "in_local_navigation"
+                and we order by adding
+                  order: 2 (whatever number)
+                {% endcomment %}
+                {% assign navigation_list = site.pages | sort:"order" %}
+                {% assign group = 'in_local_navigation' %}
+                {% include navigation_list.html %}
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- /local-nav -->
+
       </section>
 
       <section class="main-content-area" id="main-content-area">
