@@ -1,16 +1,24 @@
-.header-black-bar {
-  position: relative;
-  left: -4rem;
+@media print, screen and (min-width: 75em) {
+  /*p.lead,
+  h2, h3,*/
+  .de-indent {
+    position: relative;
+    left: -8.333%
+  }
+  .navigation-callout,
+  .header-black-bar {
+    position: relative;
+    left: -16.666%;
+  }
+  .header-black-bar > .grid-container {
+    position: relative;
+    left: 16.666%;
+  }
 }
-.header-black-bar > .grid-container {
-  position: relative;
-  left: 4rem;
-}
-
+.callout,
 .navigation-callout {
   border: none;
   background: #EEE;
-  max-width: 35rem;
 }
 
 footer {
