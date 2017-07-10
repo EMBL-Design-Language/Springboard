@@ -13,27 +13,13 @@ order: 2
 1. [Make it sustainable](#1-make-it-sustainable)
 2. [Show our work](#2-show-our-work)
 3. [Keep it simple](#3-keep-it-simple)
-4. [We are all one institute](#4-we-are-all-one-institute)
+4. [We are all one organisation](#4-we-are-all-one-organisation)
 5. [Physical, digital, and environmental are in sync](#5-physical-digital-and-environmental-are-in-sync)
 6. [Pave the cowpath](#6-pave-the-cowpath)
 7. [Repeat the words we use](#7-repeat-the-words-we-use)
 
-<<<<<<< HEAD
-<hr />
-
-1. Make it sustainable
-2. Show our work
-3. Keep it simple
-4. We are all one organisation
-5. Physical, digital, and environmental are in sync
-6. Pave the cowpath
-7. Repeat the words we use
-
-<hr />
-=======
 </div>
 </div>
->>>>>>> origin/gh-pages
 
 ### 1. Make it sustainable
 **We will create a long-term, sustainable system. Designed for efficiency, re-use, and scale.**
