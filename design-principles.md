@@ -15,7 +15,7 @@ order: 2
 1. Make it sustainable
 2. Show our work
 3. Keep it simple
-4. We are all one institute
+4. We are all one organisation
 5. Physical, digital, and environmental are in sync
 6. Pave the cowpath
 7. Repeat the words we use
@@ -40,7 +40,7 @@ We will embrace modern design practices by starting small and iterating quickly.
 EMBL is complex. As are the audiences, services, applications, and communications material that operate within the brand. We will do the hard work to uncover and expose the simplicity of the core.
 
 
-### 4. We are all one institute
+### 4. We are all one organisation
 **We will cultivate cross-pollination of services, products, ideas, and collaboration.**
 
 We will proactively seek out opportunities to collaborate on the design of services across all channels throughout EMBL and invite feedback and new perspectives. We will share and discuss our methods.
