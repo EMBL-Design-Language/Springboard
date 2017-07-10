@@ -6,21 +6,20 @@ group: "in_local_navigation"
 order: 2
 ---
 
-{% include navigation_list.html %}
+<div class="grid-x grid-padding-x">
+<div class="callout large-8 medium-9 small-12 cell de-indent" markdown="1">
 
 <p class="lead">The EMBL Design Principles are:</p>
+1. [Make it sustainable](#1-make-it-sustainable)
+2. [Show our work](#2-show-our-work)
+3. [Keep it simple](#3-keep-it-simple)
+4. [We are all one institute](#4-we-are-all-one-institute)
+5. [Physical, digital, and environmental are in sync](#5-physical-digital-and-environmental-are-in-sync)
+6. [Pave the cowpath](#6-pave-the-cowpath)
+7. [Repeat the words we use](#7-repeat-the-words-we-use)
 
-<hr />
-
-1. Make it sustainable
-2. Show our work
-3. Keep it simple
-4. We are all one institute
-5. Physical, digital, and environmental are in sync
-6. Pave the cowpath
-7. Repeat the words we use
-
-<hr />
+</div>
+</div>
 
 ### 1. Make it sustainable
 **We will create a long-term, sustainable system. Designed for efficiency, re-use, and scale.**
@@ -63,3 +62,6 @@ Forging a new path is hard. And sometimes a waste of energy. By understanding ho
 **Through consistency and repetition, we will create and maintain a design nomenclature that will become part of the EMBL vernacular.**
 
 The words we use are important. By repeating these words about EMBLs products and services, they can remind us many times every day what we believe. Changing the words we use can help change the culture of an organisation to be more design and brand aware.
+
+
+{% include navigation_list.html %}

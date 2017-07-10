@@ -11,7 +11,7 @@ order: 1
 
 The Language is one half of the coin; the other half is the EMBL Design Lab, a collaborative forum for support and improvement of the EMBL Design Language.
 
-{% include navigation_list.html %}
+Keep reading to learn more, or <a href="menu" class="read-more">see the menu of everything on this site</a>
 
 ### Purpose
 It is useful to recall [EMBL's mission](https://www.embl.de/aboutus/communication_outreach/publications/programme/programme17-21_executive-summary.pdf):
@@ -24,6 +24,9 @@ And EMBL's "[five missions and the Programme 2017—2021](https://www.embl.de/ab
 1. *Training* and inspiring the next generation of leading scientists
 1. Driving research, innovation and progress through technology development, interactions with *industry and technology transfer*
 1. Playing a leading role in the *integration* of life science research in Europe
+
+
+{% include navigation_list.html %}
 
 Links to all the things:
 - [Backlog](https://github.com/orgs/EMBL-Design-Language/projects)

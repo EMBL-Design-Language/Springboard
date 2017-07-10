@@ -24,18 +24,28 @@
 
             <div class="grid-container">
               <div class="grid-x grid-padding-x">
+
                 {% if page.url != "/" %}
                   <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
-                  <div class="padding-top-large padding-left-medium xlarge-11 large-12 cell">
+                  <div class="large-1 show-for-large cell">
+                    <!-- Indentation on big screens  -->
+                  </div>
+                  <div class="padding-top-large padding-left-medium xlarge-11 large-11 cell">
                     <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color">
-                      <i class="icon icon-generic" data-icon="H"></i> {{ site.name }}
+                      <i class="icon icon-functional" data-icon="&lt;"></i> Back to the {{ site.name }} homepage
                     </a>
                   </div>
                   <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
-                  <div class="padding-left-medium intro white-color margin-bottom-none xlarge-11 large-12 cell">
+                  <div class="large-1 show-for-large cell">
+                    <!-- Indentation on big screens  -->
+                  </div>
+                  <div class="padding-left-medium intro white-color margin-bottom-none xlarge-11 large-11 cell">
                 {% else %}
                   <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
-                  <div class="padding-left-medium padding-top-large intro white-color margin-bottom-none xlarge-11 large-12 cell">
+                  <div class="large-1 show-for-large cell">
+                    <!-- Indentation on big screens  -->
+                  </div>
+                  <div class="padding-left-medium padding-top-large intro white-color margin-bottom-none xlarge-11 large-11 cell">
                 {% endif %}
                   <h1 class="">
                     {% if page.bigtitle %}
@@ -46,7 +56,11 @@
                   </h1>
                 </div>
                 <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
-                <div class="padding-left-medium xlarge-11 large-12 cell white-color">
+                <div class="large-1 show-for-large cell">
+                  <!-- Indentation on big screens  -->
+                </div>
+
+                <div class="padding-left-medium xlarge-11 large-11 cell white-color">
                   <p class="lead" style="">{{page.subtitle}}</p>
                 </div>
               </div>
@@ -83,6 +97,10 @@
         -->
         <div class="grid-container">
           <div class="grid-x grid-padding-x">
+            <div class="large-1 show-for-large cell">
+              <!-- Indentation on big screens  -->
+            </div>
+
             <div class="large-10 medium-11 cell">
               {{ content }}
             </div>
