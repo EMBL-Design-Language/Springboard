@@ -35,10 +35,13 @@ Fira has 16 weights in two styles Roman and Italic. There is also companion Cond
 
 ![Fira Weights](https://embl-design-language.github.io/Springboard/images/fira-specimens/specimen-2.png "Weights of Fira")
 
-This huge amounts of weights provides a large amount of design freedom and flexibility, whilst retaining 
+This huge amounts of weights provides a large amount of design freedom and flexibility, whilst retaining brand integrity.
 
 
 ### Characteristics
+
+#### Inline CAPITALS for acronyms. 
+Fira's capital letters have been designed in such a way that when used for acronyms the readability of the text is not hampered in any way.
 
 ![Fira Characteristics](https://embl-design-language.github.io/Springboard/images/fira-specimens/specimen-3.png "Characteristics of Fira")
 
