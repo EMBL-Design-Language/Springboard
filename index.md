@@ -13,6 +13,32 @@ The Language is one half of the coin; the other half is the EMBL Design Lab, a c
 
 Keep reading to learn more, or <a href="menu" class="read-more">see the menu of everything on this site</a>
 
+<div class="grid-x grid-padding-x">
+<div class="callout large-8 medium-9 small-12 cell de-indent" markdown="1">
+<hr/>
+#### A note about what you're seeing on this site
+This is an initial concept of what **part** of an EMBL-branded site could look like.
+
+It shows:
+- Typography
+- Spacing rhythms
+- Use of patterns
+
+It does NOT show:
+- Colour use (note the logo is also monotone)
+- Navigation structure and menu patterns
+- Data-rich patterns (like tables and application interfaces)
+
+This site serves as part of the discussion and might serve as a build block for further work in September 2017.
+
+
+<hr/>
+</div>
+</div>
+
+
+
+
 ### Purpose
 It is useful to recall [EMBL's mission](https://www.embl.de/aboutus/communication_outreach/publications/programme/programme17-21_executive-summary.pdf):
 
@@ -28,11 +54,9 @@ And EMBL's "[five missions and the Programme 2017—2021](https://www.embl.de/ab
 
 {% include navigation_list.html %}
 
-Links to all the things:
+#### Some  artefacts from Corporate Design Sprint 1:
 - [Backlog](https://github.com/orgs/EMBL-Design-Language/projects)
 - [Blog posts](https://blogs.embl.org/communications/)
-- [OwnCloud](https://oc.embl.de) (Link only, you'll need to request access to files)
-- [Information architecture](https://github.com/EMBL-Design-Language/Information-Architecture)
-- Slack
-- Feedback/discussion: design@embl.org
-- ... more?
+- [Files](https://oc.embl.de) (Link only, you'll need to request access to OwnCloud)
+- [Slack](https://embl-cd.slack.com)
+- [Feedback/discussion](mailto:design@embl.org)
