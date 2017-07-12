@@ -1,14 +1,42 @@
+header.site-header {
+  background: url('/Springboard/images/backgrounds/pills.svg');
+  background-size: 133%;
+  background-position: 0 86%;
+  background-attachment: fixed;
+  background-color: #eee;
+}
+
+section.main-content-area {
+  margin-top: 4rem;
+}
+
+.header-black-bar {
+  background: #666;
+}
+
+section.main-content-area footer {
+  border-bottom: 1px solid #ddd;
+}
+
+section .local-footer,
+footer,
+.mono,
+.site-title {
+  font-family: "Fira Mono";
+}
+
 @media print, screen and (min-width: 75em) {
   /*p.lead,
   h2, h3,*/
   .de-indent {
-    position: relative;
-    left: -8.333%
+    /*position: relative;
+    left: -8.333%*/
   }
-  .navigation-callout,
+  /*.navigation-callout,*/
   .header-black-bar {
     position: relative;
     left: -16.666%;
+    top: 3rem;
   }
   .header-black-bar > .grid-container {
     position: relative;
@@ -18,11 +46,15 @@
 .callout,
 .navigation-callout {
   border: none;
-  background: #EEE;
+  /*background: #EEE;*/
 }
 
 footer {
-  border-top: 1px solid #999;
-  margin-top: 1rem;
+  margin-top: 2rem;
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.white-background {
+  background: #fff;
 }

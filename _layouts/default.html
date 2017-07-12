@@ -2,121 +2,132 @@
 <html lang="en">
   {% include head.html %}
   <body class=""><!-- add any of your classes or IDs -->
-    <div id="content" role="main">
+    <header class="site-header">
       <div class="masthead-inner grid-container">
         <!-- local-title -->
-        <header id="masthead-black-bar" class="clearfix masthead-black-bar">
+        <div id="masthead-black-bar" class="clearfix masthead-black-bar">
           <div class="grid-x grid-padding-x">
-            <div class="auto cell padding-top-xlarge">
-              <!-- <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="">{{ site.name }}</a> -->
+            <div class="large-1 show-for-large cell">
+              <!-- Indentation on big screens  -->
             </div>
-            <div class="small-4 medium-3 large-2 cell">
-              <a href="https://embl-design-language.github.io/Springboard/"><img class="padding-top-medium padding-bottom-xlarge padding-right-large" src="https://embl-design-language.github.io/Framework-for-Websites/assets/logos/EMBL-black.svg" /></a>
+            <div class="large-9 medium-9 small-8 cell padding-top-xlarge">
+              <a href="{{ site.baseurl }}/" title="Back to {{ site.name }} homepage" class="site-title white-background callout">{{ site.name }}</a>
+            </div>
+            <div class="small-4 medium-2 large-2 cell">
+              <a href="https://embl-design-language.github.io/Springboard/"><img class="padding-top-medium padding-bottom-medium padding-right-large" src="https://embl-design-language.github.io/Framework-for-Websites/assets/logos/EMBL-mono-black.svg" /></a>
             </div>
           </div>
-        </header>
+        </div>
         <!-- /local-title -->
       </div>
 
-      <section class="">
-        <div class="grid-x grid-padding-x">
-          <div class="header-black-bar large-12 cell black-background margin-bottom-large">
+      <div class="grid-x grid-padding-x">
 
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
+        <div class="header-black-bar large-12 cell">
 
-                {% if page.url != "/" %}
-                  <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
-                  <div class="large-1 show-for-large cell">
-                    <!-- Indentation on big screens  -->
-                  </div>
-                  <div class="padding-top-large padding-left-medium xlarge-11 large-11 cell">
-                    <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color">
-                      <i class="icon icon-functional" data-icon="&lt;"></i> Back to the {{ site.name }} homepage
-                    </a>
-                  </div>
-                  <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
-                  <div class="large-1 show-for-large cell">
-                    <!-- Indentation on big screens  -->
-                  </div>
-                  <div class="padding-left-medium intro white-color margin-bottom-none xlarge-11 large-11 cell">
-                {% else %}
-                  <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
-                  <div class="large-1 show-for-large cell">
-                    <!-- Indentation on big screens  -->
-                  </div>
-                  <div class="padding-left-medium padding-top-large intro white-color margin-bottom-none xlarge-11 large-11 cell">
-                {% endif %}
-                  <h1 class="">
-                    {% if page.bigtitle %}
-                      {{page.bigtitle}}
-                    {% else %}
-                      {{page.title}}
-                    {% endif %}
-                  </h1>
+          <div class="grid-container">
+
+            <div class="grid-x grid-padding-x">
+              {% if page.url != "/" %}
+                <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
+                <div class="large-1 show-for-large cell">
+                  <!-- Indentation on big screens  -->
+                </div>
+                <div class="padding-top-large padding-left-medium xlarge-11 large-11 cell">
+                  <a href="{{ site.domain }}{{ site.baseurl }}" title="Back to {{ site.name }} homepage" class="white-color site-title">
+                    <i class="icon icon-functional" data-icon="&lt;"></i> Back to the {{ site.name }} homepage
+                  </a>
                 </div>
                 <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
                 <div class="large-1 show-for-large cell">
                   <!-- Indentation on big screens  -->
                 </div>
-
-                <div class="padding-left-medium xlarge-11 large-11 cell white-color">
-                  <p class="lead" style="">{{page.subtitle}}</p>
+                <div class="padding-left-medium intro white-color margin-bottom-none xlarge-11 large-11 cell">
+              {% else %}
+                <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
+                <div class="large-1 show-for-large cell">
+                  <!-- Indentation on big screens  -->
                 </div>
+                <div class="padding-left-medium padding-top-large intro white-color margin-bottom-none xlarge-11 large-11 cell">
+              {% endif %}
+                <h1 class="">
+                  {% if page.bigtitle %}
+                    {{page.bigtitle}}
+                  {% else %}
+                    {{page.title}}
+                  {% endif %}
+                </h1>
+              </div>
+              <!-- <div class="show-for-xlarge xlarge-1 cell"></div> -->
+              <div class="large-1 show-for-large cell">
+                <!-- Indentation on big screens  -->
+              </div>
+
+              <div class="padding-left-medium xlarge-11 large-11 cell white-color">
+                <p class="lead" style="">{{page.subtitle}}</p>
               </div>
             </div>
           </div>
-
-
         </div>
 
-        <!-- local-nav -->
-        <!-- <nav class="grid-container padding-bottom-large">
-          <div class="grid-x">
-            <div class="large-auto cell">
-            </div>
-          </div>
-        </nav> -->
-        <!-- /local-nav -->
 
-      </section>
+      </div>
 
-      <section class="main-content-area" id="main-content-area">
-        <!-- Your menu structure should make a breadcrumb redundant, but if a breadcrump is needed uncomment the below -->
-        <!--
-        <nav aria-label="You are here:" role="navigation">
-          <ul class="breadcrumbs">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Parent</a></li>
-            <li class="disabled">Disabled</li>
-            <li>
-              <span class="show-for-sr">Current: </span> This page
-            </li>
-          </ul>
-        </nav>
-        -->
-        <div class="grid-container">
-          <div class="grid-x grid-padding-x">
-            <div class="large-1 show-for-large cell">
-              <!-- Indentation on big screens  -->
-            </div>
-
-            <div class="large-10 medium-11 cell">
-              {{ content }}
-            </div>
+      <!-- local-nav -->
+      <!-- <nav class="grid-container padding-bottom-large">
+        <div class="grid-x">
+          <div class="large-auto cell">
           </div>
         </div>
-      </section>
-      <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
+      </nav> -->
+      <!-- /local-nav -->
+
+    </header>
+
+    <section class="main-content-area" id="main-content-area">
+      <!-- Your menu structure should make a breadcrumb redundant, but if a breadcrump is needed uncomment the below -->
       <!--
-        <div id="local-footer" class="local-footer">
-          <div class="row">
-            <span class="reference">How to reference this page: ...</span>
+      <nav aria-label="You are here:" role="navigation">
+        <ul class="breadcrumbs">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Parent</a></li>
+          <li class="disabled">Disabled</li>
+          <li>
+            <span class="show-for-sr">Current: </span> This page
+          </li>
+        </ul>
+      </nav>
+      -->
+      <div class="grid-container">
+        <div class="grid-x grid-padding-x">
+          <div class="large-1 show-for-large cell">
+            <!-- Indentation on big screens  -->
+          </div>
+
+          <div class="large-10 medium-11 cell">
+            {{ content }}
           </div>
         </div>
-      -->
+      </div>
+      <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
+      <footer id="local-footer" class="local-footer">
+        <div class="grid-container">
+          <div class="grid-x">
+            <div class="small-1 cell callout">
+              <img src="{{ site.baseurl }}/images/backgrounds/pills.svg" />
+            </div>
+            <div class="small-3 cell padding-left-large">
+              <small>
+                <h5>Header pattern</h5>
+                A few words about <br/>
+                the site header image
+              </small>
+            </div>
+          </div>
+        </div>
+      </footer>
       <!-- End optional local footer -->
-    </div><!-- /.container -->
+    </section>
     {% include footer.html %}
   </body>
 </html>
