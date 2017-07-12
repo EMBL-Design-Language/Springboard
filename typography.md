@@ -46,7 +46,7 @@ Fira's capital letters have been designed in such a way that when used for acron
 ![Fira Characteristics](https://embl-design-language.github.io/Springboard/images/fira-specimens/specimen-3.png "Characteristics of Fira")
 
 #### Wide variety of glyphs
-Fira has a wide variety of standard extended latin glyphs from which to typeset from. Of particular interest to EMBL are numerals and scientific characters.
+Fira has a wide variety of standard extended latin glyphs from which to typeset. Of particular interest to EMBL are numerals and scientific characters.
 
 ![Fira Numerals and Mathematical Symbols](https://embl-design-language.github.io/Springboard/images/fira-specimens/specimen-4.png "Fira Numerals and Mathematical Symbols")
 
