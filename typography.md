@@ -51,10 +51,13 @@ Fira has a wide variety of standard extended latin glyphs from which to typeset.
 ![Fira Numerals and Mathematical Symbols](https://embl-design-language.github.io/Springboard/images/fira-specimens/specimen-4.png "Fira Numerals and Mathematical Symbols")
 
 
-
 ### Styles
+
+To come.
 
 
 ### Fontstack
+
+To come.
 
 {% include navigation_list.html %}
