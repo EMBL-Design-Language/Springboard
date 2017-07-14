@@ -3,18 +3,22 @@ layout: default
 title: Information architecture
 subtitle: "The structure of EMBL's who, what and where"
 group: "in_local_navigation"
-order: 5
+order: 3
 ---
 
 <p class="lead">We use a concept of facets to explain and relate the core EMBL IA. This primarily applies to web content and navigation, but the architecture is also designed to include print and other digital materials (e-mail, slide decks, etc.)</p>
 
 <div class="grid-x grid-padding-x">
 <div class="callout large-8 medium-9 small-12 cell" markdown="1">
+<hr/>
 ## Table of contents
-- add anchor links
+Todo: add anchor links
+1. What this is about
+2. Major facets
+3. ...
+<hr/>
 </div>
 </div>
-
 
 
 ## What this is about
