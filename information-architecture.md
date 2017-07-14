@@ -19,7 +19,7 @@ order: 5
 
 **Add user journey that makes the case for a flexible IA**
 
-User connects to a twitter share story about proteomics, pivots to grenoble... 
+User connects to a twitter share story about proteomics, pivots to grenoble...
 
 ## Major facets
 
@@ -42,7 +42,7 @@ For more details on facets as they map to EMBL's structure, [see this explainer]
 From the above we can draw requirements on what the IA must provide:
 1. Extreme flexibility: Content templates must accommodate a mix of any/all the major facets, or they need to specifically exclude address limited facets (i.e. A research webpage template can never be used for training, services, or industry transfer)
     - No website sub-page lock in: Navigation must allow easy transition between areas (i.e. from "Rome research" to "Heidelberg research")
-    - Always point to the "mothership": EMBL's diversified (silo) nature means a user may navigagte down to (or enter from) a distant brand subpoint (i.e. Ensembl) and a user should always be able to traverse the chain back to EMBL. Both navigationally and branding-wise
+    - Always point to the "mothership": EMBL's diversified (silo) nature means a user may navigate down to (or enter from) a distant brand sub-point (i.e. Ensembl) and a user should always be able to traverse the chain back to EMBL. Both navigationally and branding-wise
 1. Content maps to user needs: the facets used by content can reveal target users (once we identify our target user types)
     - Goals: we can map the content -> users -> goals. These should be trackable (this is easier with web analytics, but not impossible in print)
 1. Support multiple relationships: Many sub-pages have a plethora of relationships, from collaborators, funders, parent organisations, to endorsements. We need a structured and visually semantic/intuitive way to represent these.
@@ -53,7 +53,7 @@ The mix of facets presented will vary across each content item (microsite, servi
 
 As user needs vary we must shift the presentation order of each facet and some content will be location specific:
 - a list of structural researchers;
-- a visitor map of the EMBL Cambridge (EBI); or
+- a visitor map of the EMBL Cambridge (EMBL-EBI); or
 - a bioinformatics service listing.
 
 The website structure must be able to facilitate multi-faceted content categorisation and user navigation.
@@ -111,11 +111,11 @@ The components of the three major facets that reflect EMBL's internal organisati
 
 These facets can be matrixed in a number of ways, here is a sample to help visualise the relationships.
 
-#### Facets visulised by EMBL location/site/outstation
+#### Facets visualised by EMBL location/site/outstation
 
 Note: the information below is representative and may not reflect actual data.
 
-| Where                                                                   |                                      | Heidelberg | Barcelona | Grenoble | Hamburg | Hinxton | Rome |
+| Where                                                                   |                                      | Heidelberg | Barcelona | Grenoble | Hamburg | Cambridge | Rome |
 |-------------------------------------------------------------------------|--------------------------------------|------------|-----------|----------|---------|---------|------|
 | **Who**                                                                 |                                      | 12         | 5         | 5        | 6       | 8       | 5    |
 | people                                                                  |                                      | X          | X         | X        | X       | X       | X    |
@@ -143,7 +143,9 @@ Note: the information below is representative and may not reflect actual data.
 
 ## Content facets
 
-Many types of content are used throughout the organisation by many teams (people, news, events) and we will want to share, import, compile, and distribute these. So it is important that we have an agreement on what these content types are made of.
+Core content types are common throughout EMBL (people, news, events) and we will want to share, import, compile, and distribute these. So it is important that we have an agreement on what these content types are made of.
+
+Note: all content facets contain: who, what and where (the major facet) records.
 
 #### News
 
@@ -151,15 +153,17 @@ Many types of content are used throughout the organisation by many teams (people
 - URL
 - Body (rich text/html)
 - Image
+- **Who**: Associated people and/or teams
+  - Reference EMBL person(s) and/or free-form name+URL
+- **What**: Major domain; multi-level (research, research->structural, services, training, training->bioinformatics)
+- **Where**: The related organisation(s), EMBL, Rome, etc.
 - Tags
-  - What: Major domain; multi-leve (research, research->structural, services, training, training->bioinformatics)
   - Topic tags: free form
   - [EDAM ontology](https://www.ebi.ac.uk/ols/ontologies/edam)
 - Source link: Specifically when re-posting news snippets
 - Semantic meta-information (optional):
   - Longevity: Score of how long this will be relevant for [0-100]
   - Importance: Score of how "important" this is [0-100]
-- Associated people: Reference EMBL person(s) and/or free-form name+URL
 
 #### People
 ... to come
@@ -168,6 +172,7 @@ Many types of content are used throughout the organisation by many teams (people
 .. to come
 
 #### More types
+.. to come
 
 
 
@@ -232,7 +237,7 @@ Let's look back at our IA requirements, particularly item #1:
 >
 > As user needs vary we must shift the presentation order of each facet and some content will be location specific:
 > - a list of structural researchers;
-> - a visitor map of the EMBL Cambridge (EBI); or
+> - a visitor map of the EMBL Cambridge (EMBL-EBI); or
 > - a bioinformatics service listing.
 > - The website structure must be able to facilitate multi-faceted content categorisation and user navigation.
 
