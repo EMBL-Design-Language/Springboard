@@ -6,14 +6,16 @@ group: "in_local_navigation"
 order: 5
 ---
 
+<p class="lead">We use a concept of facets to explain and relate the core EMBL IA. This primarily applies to web content and navigation, but the architecture is also designed to include print and other digital materials (e-mail, slide decks, etc.)</p>
+
 <div class="grid-x grid-padding-x">
-<div class="callout large-8 medium-9 small-12 cell de-indent" markdown="1">
+<div class="callout large-8 medium-9 small-12 cell" markdown="1">
 ## Table of contents
 - add anchor links
 </div>
 </div>
 
-<p class="lead">This primarily applies to web content and navigation, but this architecture is also designed to include print and other digital materials as well (e-mail, slide decks, etc.)</p>
+
 
 ## What this is about
 
@@ -46,19 +48,19 @@ From the above we can draw three major requirements on what the IA must provide:
 The mix of facets presented will vary across each content item (microsite, service, homepage, brochure).
 
 Content templates must accommodate a mix of any/all the major facets, or they need to specifically exclude address limited facets (i.e. A research webpage template can never be used for training, services, or industry transfer)
-    - No website sub-page lock in: Navigation must allow easy transition between areas (i.e. from "Rome research" to "Heidelberg research")
-    - Always point to the "mothership": EMBL's diversified (silo) nature means a user may navigate down to (or enter from) a distant brand sub-point (i.e. Ensembl) and a user should always be able to traverse the chain back to EMBL. Both navigationally and branding-wise
+  - No website sub-page lock in:
+    - Navigation must allow easy transition between areas (i.e. from "Rome research" to "Heidelberg research")
+    - As user needs vary we must shift the presentation order of each facet and some content will be location specific:
+      - a list of structural researchers;
+      - a visitor map of the EMBL Cambridge (EMBL-EBI); or
+      - a bioinformatics service listing.
+  - Always point to the "mothership":
+    - EMBL's diversified (silo) nature means a user may navigate down to (or enter from) a distant brand sub-point (i.e. Ensembl) and a user should always be able to traverse the chain back to EMBL. Both navigationally and branding-wise.
 
-As user needs vary we must shift the presentation order of each facet and some content will be location specific:
-- a list of structural researchers;
-- a visitor map of the EMBL Cambridge (EMBL-EBI); or
-- a bioinformatics service listing.
-
-The website structure must be able to facilitate multi-faceted content categorisation and user navigation.
 
 ### 2. Content maps to user needs: Only as important as it is to a user
 
-The facets used by content can reveal target users (once we identify our target user types) so we can map content -> users -> goals. These should be trackable (this is easier with web analytics, but not impossible in print)
+The facets used by content are linked to targeted user types so we can map content -> users -> goals.
 
 The importance of each major facet varies according to user needs at a given time; a user might:
 - look to connect a person at EMBL;
@@ -67,16 +69,15 @@ The importance of each major facet varies according to user needs at a given tim
 - discover structural biology research being performed by Jane Doe at Grenoble.
 
 ### 3. Support multiple relationships: A world of parents, funders, sponsors, collaborators
+
 Many sub-pages have a plethora of relationships, from collaborators, funders, parent organisations, to endorsements. We need a structured and visually semantic/intuitive way to represent these.
 
 More to come. (will reference work done for ELIXIR; see owncloud documents for now)
 
 
-## Facets
+## Facet structure and categories
 
 The overlay of the IA facets creates a venn diagram mirroring EMBL's mission.
-
-### Major facet structure and categories
 
 The components of the three major facets that reflect EMBL's internal organisation and the outside user's need.
 
@@ -111,11 +112,10 @@ The components of the three major facets that reflect EMBL's internal organisati
 
 ### Explainer demonstration
 
-These facets can be matrixed in a number of ways, here is a sample to help visualise the relationships.
+These facets can be matrixed in a number of ways, here is a sample to help visualise relationships.
 
-#### Facets visualised by EMBL location/site/outstation
-
-Note: the information below is representative and may not reflect actual data.
+**Facets pivoted by EMBL site**<br/>
+Note: the information below is representative.
 
 | Where                                                                   |                                      | Heidelberg | Barcelona | Grenoble | Hamburg | Cambridge | Rome |
 |-------------------------------------------------------------------------|--------------------------------------|------------|-----------|----------|---------|---------|------|
@@ -143,7 +143,7 @@ Note: the information below is representative and may not reflect actual data.
 
 
 
-## Content facets
+## Facets of content types
 
 Core content types are common throughout EMBL (people, news, events) and we will want to share, import, compile, and distribute these. So it is important that we have an agreement on what these content types are made of.
 
@@ -178,16 +178,16 @@ Note: all content facets contain: who, what and where (the major facet) records.
 
 
 
-## Print materials and slides
+## Facets on print materials, slides
 
 This is somewhat less complex as it does not need to facilitate navigation, however the contextual placement who, what and where is still important.
 
 (Add information and diagrams here)
 
 
-## Websites
+## Facets on websites
 
-### URL Structures
+### Facets in URL structures
 
 While the major facets may in some case be directly accessible by domain URLs (that is: all Cambridge-specific information can be portaled via www.ebi.ac.uk, or a specific training event might have micro-site domain).
 
@@ -229,7 +229,7 @@ Some examples:
 Note that in all of these cases, content should be pulled from the main EMBL.org "content engine" (to be defined in another document) where possible to avoid data duplication.
 
 
-### Website navigation
+### Faceted website navigation
 
 There are three main concepts in our navigation: scope, reset, and pivot.
 
