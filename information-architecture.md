@@ -15,6 +15,12 @@ order: 5
 
 <p class="lead">This primarily applies to web content and navigation, but this architecture is also designed to include print and other digital materials as well (e-mail, slide decks, etc.)</p>
 
+## What this is about
+
+**Add user journey that makes the case for a flexible IA**
+
+User connects to a twitter share story about proteomics, pivots to grenoble... 
+
 ## Major facets
 
 There are three major facets that reflect EMBL's internal organisation and the outside user's need.
