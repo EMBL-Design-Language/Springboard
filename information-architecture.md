@@ -30,7 +30,7 @@ User connects to a twitter share story about proteomics, pivots to grenoble...
 
 There are three major facets that reflect EMBL's internal organisation and the outside user's need.
 
-1. Who: the EMBL people involved
+1. Who: the EMBL people and teams involved
 1. What: the division (research, services, training, industry transfer)
     - Activity: the type of work being done (disease modeling, bioinformatics, structural biology, mouse biology, etc.)
 1. Where: EMBL's six physical geographic sites and virtual websites
@@ -47,6 +47,7 @@ The components of the three major facets that reflect EMBL's internal organisati
 
 1. Who
    - people
+   - groups and teams
 1. What
    - research
       - Cell Biology and Biophysics
@@ -185,7 +186,6 @@ Note: all content facets contain: who, what and where (the major facet) records.
 .. to come
 
 
-
 ## Facets on print materials, slides
 
 This is somewhat less complex as it does not need to facilitate navigation, however the contextual placement who, what and where is still important.
@@ -241,22 +241,10 @@ Note that in all of these cases, content should be pulled from the main EMBL.org
 
 There are three main concepts in our navigation: scope, reset, and pivot.
 
-Let's look back at our IA requirements, particularly item #1:
-> 1. Extreme flexibility: Impact on structures
-> The mix of facets presented will vary across each content item (microsite, service, homepage, brochure).
->
-> As user needs vary we must shift the presentation order of each facet and some content will be location specific:
-> - a list of structural researchers;
-> - a visitor map of the EMBL Cambridge (EMBL-EBI); or
-> - a bioinformatics service listing.
-> - The website structure must be able to facilitate multi-faceted content categorisation and user navigation.
-
-This means we must
+This means we must facilitate:
 1. Many paths: provide the functional ability to navigate a series of website properties that can share many or few relationships
 2. Orientation: provide enough context/hierarchy/rigidity to allow the user to orient; and
 3. Flexibility: enough flexibility to allow the site maintainers to customise within the scope of the system.
-
-Not hard, but it will be complex.
 
 #### Schematic
 

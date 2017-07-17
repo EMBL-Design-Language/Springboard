@@ -47,10 +47,3 @@ And EMBL's "[five missions and the Programme 2017—2021](https://www.embl.de/ab
 
 
 {% include navigation_list.html %}
-
-#### Some  artefacts from Corporate Design Sprint 1:
-- [Backlog](https://github.com/orgs/EMBL-Design-Language/projects)
-- [Blog posts](https://blogs.embl.org/communications/)
-- [Files](https://oc.embl.de) (Link only, you'll need to request access to OwnCloud)
-- [Slack](https://embl-cd.slack.com)
-- [Feedback/discussion](mailto:design@embl.org)
