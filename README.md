@@ -32,7 +32,7 @@ For more background, head to: https://github.com/EMBL-Design-Language/Framework-
 If you're developing or doing many content edits, it's best to serve locally.
 
 1. Build changes with Jekyll:
-  - `sudo jekyll serve --port 99`
+  - `jekyll build --watch`
 2. Live push changes to your browser with Browsersync (Optional):
   - Run the Jekyll command above
   - `npm install`

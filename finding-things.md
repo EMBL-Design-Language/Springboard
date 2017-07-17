@@ -17,4 +17,12 @@ This will (likely) be two large spheres:
 1. Stuff on owncloud
     - PPT, DOC, InDesign templates (I'm guessing that's the best way to share across EMBL?)
 
+<hr/>
+#### Other artefacts:
+- [Backlog](https://github.com/orgs/EMBL-Design-Language/projects)
+- [Files](https://oc.embl.de) (Link only, you'll need to request access to OwnCloud)
+- [Slack](https://embl-cd.slack.com)
+<hr/>
+
+
 {% include navigation_list.html %}
