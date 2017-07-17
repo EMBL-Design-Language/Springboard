@@ -1,8 +1,8 @@
 <div class="grid-x grid-padding-x">
-  <div class="large-8 medium-9 small-12 cell">
+  <div class=" small-12 cell">
     <div class="callout navigation-callout">
-      <h4>Also in the Springboard</h4>
-      <ul class="">
+      <h4>In the Springboard</h4>
+      <div class="grid-x grid-padding-x small-up-2 medium-up-3">
       {% comment %}
       We construct the site naviagion by loading a list of the site's pages
       and filtering to just those with the front matter of:
@@ -15,16 +15,19 @@
       {% for node in navigation_list %}
         {% if group == null or group == node.group %}
           {% if page.url == node.url %}
-            <li class="active"><strong><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></strong> (you are here)</li>
+            <div class="cell"><strong><a href="{{ site.baseurl }}{{node.url}}" class="active">{{node.title}}</a></strong>
+              <p>(you are here)</p>
+            </div>
           {% else %}
-            <li><a href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a>: {{node.subtitle}}</li>
-
+            <div class="cell"><a class="no-underline" href="{{ site.baseurl }}{{node.url}}">{{node.title}}</a>
+              <p> {{node.subtitle}}</p>
+            </div>
           {% endif %}
         {% endif %}
       {% endfor %}
       {% assign pages_list = nil %}
       {% assign group = nil %}
-      </ul>
+      </div>
     </div>
   </div>
 </div>
