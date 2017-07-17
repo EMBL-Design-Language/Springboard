@@ -8,6 +8,19 @@ order: 3
 
 <p class="lead">We use a concept of facets to explain and relate the core EMBL IA. This primarily applies to web content and navigation, but the architecture is also designed to include print and other digital materials (e-mail, slide decks, etc.)</p>
 
+### Purpose
+Before we get into the details of the architecture, it is useful to recall [EMBL's mission](https://www.embl.de/aboutus/communication_outreach/publications/programme/programme17-21_executive-summary.pdf):
+
+> EMBL is Europe’s centre of excellence in life science research, services and training. It was founded in 1974 by its member states as an intergovernmental organisation to promote the molecular life sciences in Europe and beyond.
+
+And EMBL's "[five missions and the Programme 2017—2021](https://www.embl.de/aboutus/communication_outreach/publications/programme/programme17-21_executive-summary.pdf)":
+> 1. Forefront *research*: uncovering the molecular basis of life
+> 1. Providing world-class *research infrastructure and services*
+> 1. *Training* and inspiring the next generation of leading scientists
+> 1. Driving research, innovation and progress through technology development, interactions with *industry and technology transfer*
+> 1. Playing a leading role in the *integration* of life science research in Europe
+
+
 <div class="grid-x grid-padding-x">
 <div class="callout large-8 medium-9 small-12 cell" markdown="1">
 <hr/>
