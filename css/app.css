@@ -58,3 +58,7 @@ footer {
 .white-background {
   background: #fff;
 }
+
+/* hide until js loads */
+.vertical.menu.nested { display: none; }
+.vertical.menu.nested.js-dropdown-active { display: block;; }

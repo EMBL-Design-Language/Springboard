@@ -11,7 +11,7 @@ order: 1
 
 The Language is one half of the coin; the other half is the EMBL Design Lab, a collaborative forum for support and improvement of the EMBL Design Language.
 
-Keep reading to learn more, or <a href="menu" class="read-more">see the menu of everything on this site</a>
+Read below to learn more, [check out the blog for updates](/Springboard/blog) or <a href="menu" class="read-more">view a menu of everything on this site</a>
 
 <div class="grid-x grid-padding-x">
 <div class="callout large-11 medium-12 cell" markdown="1">

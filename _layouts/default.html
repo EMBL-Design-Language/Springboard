@@ -11,7 +11,16 @@
               <!-- Indentation on big screens  -->
             </div>
             <div class="large-9 medium-9 small-12 cell padding-top-xlarge small-order-2 medium-order-1">
-              <a href="{{ site.baseurl }}/" title="Back to {{ site.name }} homepage" class="site-title white-background callout">{{ site.name }}</a>
+              <ul class="dropdown menu" data-dropdown-menu style="">
+                <li>
+                  <a href="{{ site.baseurl }}/" title="Back to {{ site.name }} homepage" class="site-title white-background callout">{{ site.name }}</a>
+                  <ul class="vertical menu nested" style="">
+                    <li><a href="/Springboard">Back to homepage</a></li>
+{% include navigation_bar.html %}
+                  </ul>
+                </li>
+              </ul>
+              <!-- <a href="{{ site.baseurl }}/" title="Back to {{ site.name }} homepage" class="site-title white-background callout">{{ site.name }}</a> -->
             </div>
             <div class="small-12 medium-2 large-2 cell small-order-1 medium-order-2">
               <div class="grid-x" style="display:block;">
