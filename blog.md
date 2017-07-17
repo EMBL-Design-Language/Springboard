@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-subtitle: "Insights into the process"
+subtitle: "Insights into the process."
 group: "in_local_navigation"
 order: 7
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Design Principles
-subtitle: ""
+title: Design principles
+subtitle: "Truths about the languages goals, aspirations."
 group: "in_local_navigation"
 order: 2
 ---

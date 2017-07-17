@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Finding things
-subtitle: "Where to find the various template files, documentation, pattern libraries"
+subtitle: "Where to find the various template files, documentation, pattern libraries."
 group: "in_local_navigation"
 order: 6
 ---

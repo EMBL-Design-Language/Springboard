@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Governance
-subtitle: "About the EMBL Design Language governance, the Design Lab working group"
+subtitle: "About the EMBL Design Language governance, the Design Lab working group."
 group: "in_local_navigation"
 order: 5
 ---
