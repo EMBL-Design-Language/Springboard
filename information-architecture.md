@@ -25,19 +25,21 @@ And EMBL's "[five missions and the Programme 2017—2021](https://www.embl.de/ab
 <div class="callout large-8 medium-9 small-12 cell" markdown="1">
 <hr/>
 ## Table of contents
-Todo: add anchor links
-1. What this is about
-2. Major facets
-3. ...
+To come.
 <hr/>
 </div>
 </div>
 
+### Note: the below provides some early insight into the functional structure. 
+For a more narative read, [check out the blog post](https://blogs.embl.org/communications/2017/07/18/the-embl-triangle-key-from-brand-structure-to-information-architecture/).
+
 ## What this is about
 
-**Add user journey that makes the case for a flexible IA**
+Not all user journeys are the same. Some come to learn about EMBL in general, some to learn about the Grenoble campus, some to learn about bioinformatics. And during that journey their focus may well shift from just bioinformatics to training for it at Cambridge. And it may change yet again to learn about bioinformatics across EMBL.
 
-User connects to a twitter share story about proteomics, pivots to grenoble...
+In addition to web navigation, we find that our print products also share shifting focus with some on broad topics and others that are very narrow.
+
+Therefore our architecture must be able display many or few facets. And it must be able to pivot from one facet to another.
 
 ## Major facets
 
