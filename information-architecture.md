@@ -168,7 +168,7 @@ More to come. (will reference work done for ELIXIR; see owncloud documents for n
 
 Core content types are common throughout EMBL (people, news, events) and we will want to share, import, compile, and distribute these. So it is important that we have an agreement on what these content types are made of.
 
-Note: all content facets contain: who, what and where (the major facet) records.
+Note: all content facets contain: [who, what and where](#facet-structure-and-categories) (the major facet) records.
 
 ### Major facet content types
 
@@ -178,10 +178,10 @@ Note: all content facets contain: who, what and where (the major facet) records.
 - URL (required)
 - Body (required, rich text/html)
 - Image(s) (reference to file)
-- **Who**: Associated people and/or teams
+- **[Who](#facet-structure-and-categories)**: Associated people and/or teams
   - Reference EMBL person(s) and/or free-form name+URL
-- **What**: Major domain; multi-level (research, research->structural, services, training, training->bioinformatics)
-- **Where**: The related organisation(s), EMBL, Rome, etc.
+- **[What](#facet-structure-and-categories)**: Major domain; multi-level (research, research->structural, services, training, training->bioinformatics)
+- **[Where](#facet-structure-and-categories)**: The related organisation(s), EMBL, Rome, etc.
 - Tags
   - Topic tags: free form
   - [EDAM ontology](https://www.ebi.ac.uk/ols/ontologies/edam)
@@ -195,9 +195,9 @@ Note: all content facets contain: who, what and where (the major facet) records.
 - Full Name (required)
 - Name
 - Last name
-- **Who**: Organisational reports (people) and teams
-  **What**: Work areas
-- **Where**: Site(s) of work
+- **[Who](#facet-structure-and-categories)**: Organisational reports (people) and teams
+- **[What](#facet-structure-and-categories)**: Work areas
+- **[Where](#facet-structure-and-categories)**: Site(s) of work
 - Photo (reference to file)
 - Bio / about
 - Telephone number
