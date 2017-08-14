@@ -30,7 +30,7 @@ To come.
 </div>
 </div>
 
-### Note: the below provides some early insight into the functional structure. 
+### Note: the below provides some early insight into the functional structure.
 For a more narative read, [check out the blog post](https://blogs.embl.org/communications/2017/07/18/the-embl-triangle-key-from-brand-structure-to-information-architecture/).
 
 ## What this is about
@@ -52,7 +52,7 @@ There are three major facets that reflect EMBL's internal organisation and the o
 
 Each and all of these three are part and make of [EMBL's mission](https://github.com/EMBL-Design-Language/About#purpose) and they were distilled from EMBL's identity map:
 
-add postits and sphere graph
+[add postits and sphere graph]
 
 ## Facet structure and categories
 
@@ -164,21 +164,20 @@ Many sub-pages have a plethora of relationships, from collaborators, funders, pa
 
 More to come. (will reference work done for ELIXIR; see owncloud documents for now)
 
-
-
-
 ## Facets of content types
 
 Core content types are common throughout EMBL (people, news, events) and we will want to share, import, compile, and distribute these. So it is important that we have an agreement on what these content types are made of.
 
 Note: all content facets contain: who, what and where (the major facet) records.
 
+### Major facet content types
+
 #### News
 
-- Headline (text, 255 chars)
-- URL
-- Body (rich text/html)
-- Image
+- Headline (required, text, 255 chars)
+- URL (required)
+- Body (required, rich text/html)
+- Image(s) (reference to file)
 - **Who**: Associated people and/or teams
   - Reference EMBL person(s) and/or free-form name+URL
 - **What**: Major domain; multi-level (research, research->structural, services, training, training->bioinformatics)
@@ -191,8 +190,27 @@ Note: all content facets contain: who, what and where (the major facet) records.
   - Longevity: Score of how long this will be relevant for [0-100]
   - Importance: Score of how "important" this is [0-100]
 
-#### People
-... to come
+#### People and teams
+- Unique ID (generated, required)
+- Full Name (required)
+- Name
+- Last name
+- **Who**: Organisational reports (people) and teams
+  **What**: Work areas
+- **Where**: Site(s) of work
+- Photo (reference to file)
+- Bio / about
+- Telephone number
+- E-mail address
+- Orcid ID
+- External data source (i.e. EMBL LDAP)
+- Tags
+  - Type (staff, speaker, trainer or team)
+  - Topic tags: free form
+  - [EDAM ontology](https://www.ebi.ac.uk/ols/ontologies/edam)
+
+#### Imagery
+.. to come
 
 #### Events
 .. to come
