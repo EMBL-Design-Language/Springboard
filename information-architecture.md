@@ -31,7 +31,7 @@ To come.
 </div>
 
 ### Note: the below provides some early insight into the functional structure.
-For a more narative read, [check out the blog post](https://blogs.embl.org/communications/2017/07/18/the-embl-triangle-key-from-brand-structure-to-information-architecture/).
+For a more narrative read, [check out the blog post](https://blogs.embl.org/communications/2017/07/18/the-embl-triangle-key-from-brand-structure-to-information-architecture/).
 
 ## What this is about
 
@@ -60,10 +60,11 @@ The overlay of the IA facets creates a venn diagram mirroring EMBL's mission.
 
 The components of the three major facets that reflect EMBL's internal organisation and the outside user's need.
 
+
 1. Who
    - people
    - groups and teams
-1. What
+2. What
    - research
       - Cell Biology and Biophysics
       - Developmental Biology
@@ -78,17 +79,23 @@ The components of the three major facets that reflect EMBL's internal organisati
       - core facilities
    - training
       - online/external
+        - online bioinformatic services (EBI)
       - collaboration
    - industry transfer
+   - inspiration
    - about
-     - meta info on the mission (news, jobs, mission statement, etc.)
-1. Where
+     - news
+     - jobs
+     - mission statement
+     - organisational information
+3. Where
    - Heidelberg
    - Barcelona
    - Grenoble
    - Hamburg
    - Hinxton
    - Rome
+
 
 ### Explainer demonstration
 
